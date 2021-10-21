@@ -1,0 +1,53 @@
+// color
+$color-red       : red;
+$color-danger    : #FF7171;
+$color-salmon    : salmon;
+$color-blue      : blue;
+$color-info      : #0880AE;
+$color-lightBlue : #7C9CBF;
+$color-hover     : #EBF4F8;
+$color-green     : green;
+$color-lime      : lime;
+$color-yellow    : yellow;
+$color-gold      : gold;
+$color-pink      : pink;
+$color-deepPink  : deepPink;
+$color-orange    : orange;
+$color-coral     : coral;
+$color-purple    : purple;
+$color-violet    : violet;
+$color-gray      : gray;
+$color-sub       : #756F86;
+$color-border    : #DBE2EA;
+$color-silver    : silver;
+$color-white     : white;
+$color-snow      : Snow;
+$color           : #2C2738;
+$color-black     : black;
+$color-black-1   : #001;
+
+// font-family
+$ff              : 'Roboto, "Helvetica Neue", sans-serif';
+
+// font-size
+$fs              : 16px;
+$fs-s            : 14px;
+
+// line-height
+$lh              : 22px;
+
+// border-radius
+$br              : 6px;
+
+
+@mixin input(){
+  background-color: #FFFFFF;
+  border: 1px solid $color-border;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px rgba(44, 39, 56, 0.04);
+  border-radius: $br;
+}
+
+
+
+
